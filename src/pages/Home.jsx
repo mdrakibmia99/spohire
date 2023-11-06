@@ -1,5 +1,7 @@
 import Features from "../components/Feature/Features";
 import HeroSection from "../components/HeroSection";
+import SpoHire from "../components/SpoHire/SpoHire";
+import Testimonal from "../components/Testimonal/Testimonal";
 import Work from "../components/Work/Work";
 import Navbar from "../layout/Navbar";
 
@@ -11,6 +13,8 @@ const Home = () => {
         </div>
         <Features />
         <Work/>
+        <Testimonal/>
+        <SpoHire/>
 
     </div>
     );

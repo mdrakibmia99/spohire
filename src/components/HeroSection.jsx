@@ -1,6 +1,6 @@
 const HeroSection = () => {
     return (
-        <div className="grid grid-cols-12 items-center">
+        <div className="grid grid-cols-12 items-center h-screen">
             <div className="col-span-6">
 
             <div className="w-[411px] h-[51px] border-[1.50px] rounded-[52.05px] border-white div-item-center">
