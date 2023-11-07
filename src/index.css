@@ -1,13 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@import url('https://fonts.cdnfonts.com/css/gilroy');
 *{
     margin: 0;
     padding: 0;
 }
 body{
     background-color: black;
+    font-family: 'Gilroy', sans-serif;
+                                                
 }
 .div-item-center{
  @apply flex justify-center items-center
