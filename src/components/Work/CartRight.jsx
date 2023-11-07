@@ -5,7 +5,7 @@ const CartRight = () => {
             <h2 className="text-[31.93px] font-bold">Sign Up</h2>
             <p className="text-[23.95px] my-[21px]">Create an account ad add your <br /> profile for those loking.</p>
           <div>
-            <img src="/public/assets/work/signupImg.png" alt="" />
+            <img src="/assets/work/signupImg.png" alt="" />
           </div>
         </div>
     );

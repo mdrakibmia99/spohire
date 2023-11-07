@@ -11,12 +11,18 @@ const Home = () => {
         <div className="w-full bg-[url('/assets/images/star.png')] bg-no-repeat relative" >
             <Navbar />
             <HeroSection />
+            <div className="absolute top-0 right-0 ">
+                <img src="assets/images/home-tr.png" alt="" />
+            </div>
         </div>
+        
         <Features />
         <Work />
+        {/*
+        
         <Testimonal />
         <SpoHire />
-        <Question />
+        <Question /> */}
 
     </div>
     );
