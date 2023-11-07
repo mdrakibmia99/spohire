@@ -7,7 +7,7 @@ import Work from "../components/Work/Work";
 import Navbar from "../layout/Navbar";
 
 const Home = () => {
-    return (<div>
+    return (<div className="w-full overflow-hidden">
         <div className="w-full bg-[url('/assets/images/star.png')] bg-no-repeat relative z-40 overflow-hidden" >
             <Navbar />
             <HeroSection />
