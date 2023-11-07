@@ -8,21 +8,19 @@ import Navbar from "../layout/Navbar";
 
 const Home = () => {
     return (<div>
-        <div className="w-full bg-[url('/assets/images/star.png')] bg-no-repeat relative" >
+        <div className="w-full bg-[url('/assets/images/star.png')] bg-no-repeat relative z-40" >
             <Navbar />
             <HeroSection />
-            <div className="absolute top-0 right-0 ">
+            <div className="absolute top-0 right-0 -z-10">
                 <img src="assets/images/home-tr.png" alt="" />
             </div>
         </div>
         
         <Features />
         <Work />
-        {/*
-        
         <Testimonal />
         <SpoHire />
-        <Question /> */}
+        <Question />
 
     </div>
     );

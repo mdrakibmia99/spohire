@@ -8,7 +8,7 @@ const Main = () => {
         <div className="max-w-[1980px] mx-auto bg-black">
             <Home />
             <Outlet />
-            {/* <Footer/> */}
+            <Footer/>
 
         </div>
     );

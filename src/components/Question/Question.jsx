@@ -18,10 +18,10 @@ const Question = () => {
     return (
         <div className='bg-white'>
 
-        <div className=" max-w-[1140px] mx-auto text-black py-[141px]">
-            <p className="text-center text-[62px] font-bold ">Frequently Asked Questions</p>
-             <p className="text-2xl font-medium mt-[83px] mb-[22px]">What Are The Hours of Operation?</p>
-             <p className="text-xl font-medium max-w-[920px] mb-[20px]">
+        <div className=" lg:w-[1140px] w-[339px] mx-auto text-black lg:py-[141px] py-16">
+            <p className="text-center lg:text-[62px] text-2xl font-bold ">Frequently Asked Questions</p>
+             <p className="lg:text-2xl text-sm font-medium lg:mt-[83px] lg:mb-[22px] mt-12 mb-[8px]">What Are The Hours of Operation?</p>
+             <p className="lg:text-xl text-[11px] font-medium max-w-[920px] lg:mb-[20px] mb-8 ">
              Through a selection of ingenious residential projects –in which materials are immersed into a transformation, maintenance, or renovation process–, the article opens a discussion on how good architecture is durable and reusable.
              </p>
             
@@ -29,8 +29,8 @@ const Question = () => {
                 {
                     questions?.map((question,index)=>( <div key={index}>
                         {index == 0 &&  <hr  className='opacity-[0.20] border-1 border-black'/>}
-                        <div className='flex justify-between mt-[33px] mb-[27px]'>
-                        <p className='text-2xl font-medium'>{question}</p>
+                        <div className='flex justify-between lg:mt-[33px] lg:mb-[27px] m-[16px]'>
+                        <p className='lg:text-2xl text-[12px] font-medium'>{question}</p>
                         <img src={plusIcon} alt="" className='cursor-pointer' />
                         </div>
                         <hr  className='opacity-[0.20] border-1 border-black'/>
