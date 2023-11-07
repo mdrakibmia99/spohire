@@ -9,14 +9,14 @@ const lists = [
 ]
 const FeatureTop = () => {
     return (
-        <div className=" w-full pt-[40px] overflow-hidden">
+        <div className=" w-full pt-[40px] lg:px-0 px-3 overflow-hidden">
 
-            <ul className="lg:flex lg:flex-row lg:items-center lg:gap-x-[60px] lg:-ml-[100px] grid grid-cols-3 gap-[24px] px-[10px]">
+            <ul className="lg:flex lg:flex-row lg:items-center lg:gap-x-[60px] lg:-ml-[100px] grid grid-cols-3 lg:gap-[24px] gap-3">
                 {
                     lists?.map((list,index) => (<>
-                        <li className={`text-black div-item-center font-bold border-[1.73px] rounded-[52px] ${list.className} lg:w-[270px] lg:h-[73px] w-[118px] h-[37px] `} >
+                        <li className={`text-black div-item-center font-bold border-[1.73px] rounded-[52px] ${list.className} lg:w-[270px] lg:h-[73px] w-[110px] h-[37px] `} >
                             <div className="flex justify-center items-center">
-                                <span className="text-black text-5xl  relative lg:-mt-7 -mt-8 lg:mr-5 mr-2">.</span>
+                                <span className="text-black text-5xl  relative lg:-mt-7 -mt-7 lg:mr-5 mr-2">.</span>
                                 <p className="lg:text-2xl text-[12.16px] text-black block list-disk uppercase"> {list.name}</p>
                             </div>
                         </li>
