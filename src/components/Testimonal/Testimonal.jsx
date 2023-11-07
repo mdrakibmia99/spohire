@@ -20,11 +20,11 @@ const Testimonal = () => {
                     <h3 className="text-center lg:text-[34.70px] text-base text-[#8386A7] font-bold">Trusted by Greatest Companies</h3>
 
                     <div className="flex flex-wrap justify-between lg:w-[1343px] w-[340px] mx-auto lg:mt-[46px] mt-[35px] items-center lg:gap-0 gap-y-[36px]">
-                        <img className="lg:w-[150px] w-[92px]" src="/public/assets/testimonal/Google.png" alt="" />
-                        <img className="lg:w-[176px] w-[105px]" src="/public/assets/testimonal/airbnb2.png" alt="" />
-                        <img className="lg:w-[145px] w-[89px]" src="/public/assets/testimonal/Creative3.png" alt="" />
-                        <img className="lg:w-[236px] w-[140px]" src="/public/assets/testimonal/shopify4.png" alt="" />
-                        <img className="lg:w-[173px] w-[110px]" src="/public/assets/testimonal/amazon5.png" alt="" />
+                        <img className="lg:w-[150px] w-[92px]" src="/assets/testimonal/Google.png" alt="" />
+                        <img className="lg:w-[176px] w-[105px]" src="/assets/testimonal/airbnb2.png" alt="" />
+                        <img className="lg:w-[145px] w-[89px]" src="/assets/testimonal/Creative3.png" alt="" />
+                        <img className="lg:w-[236px] w-[140px]" src="/assets/testimonal/shopify4.png" alt="" />
+                        <img className="lg:w-[173px] w-[110px]" src="/assets/testimonal/amazon5.png" alt="" />
                     </div>
                  
                 </div>

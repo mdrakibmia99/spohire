@@ -15,7 +15,7 @@ const Navbar = () => {
                     <li>Pricing</li>
                 </ul>
                 <div className="w-4 h-4  lg:hidden sm:block md:block">
-                <img className="w-full h-full" src="/public/assets/images/List.svg" alt="" />
+                <img className="w-full h-full" src="/assets/images/List.svg" alt="" />
                 </div>
             </div>
 

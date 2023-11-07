@@ -33,7 +33,7 @@ const Footer = () => {
 
 
             </div>
-            <div className="flex text-white flex-row justify-center lg:gap-[75px] gap-[40px] mt-[115px] mb-[32px] z-40">
+            <div className="flex text-white flex-row justify-center lg:gap-[75px] gap-[40px] lg:mt-[115px] mt-[24px] mb-[32px] z-40">
                 <p className=" text-[11px] whitespace-nowrap lg:text-[21.43px]">Privacy policy</p>
                 <p className=" text-[11px] whitespace-nowrap lg:text-[21.43px]">Terms & condition</p>
                 <p className=" text-[11px] whitespace-nowrap lg:text-[21.43px]">AMSL All Right Reserved</p>
