@@ -1,7 +1,7 @@
 
 const Navbar = () => {
     return (
-        <div className="bg-primary px-10">
+        <div className="bg-primary lg:px-10 px-6 ">
             <div className="flex flex-row justify-between items-center py-6 ">
 
             <div className="w-[68px] h-[16px] lg:w-[156px] lg:h-[48px]">
